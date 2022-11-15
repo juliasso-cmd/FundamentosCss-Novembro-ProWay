@@ -1,0 +1,49 @@
+
+body{background-color: gray;}
+      p {
+        color: red;
+      }
+      img {
+        width: 30px;
+        height: 15px;
+      }
+      #meu_id {
+          border: 1px solid black;
+        }
+        
+        #borda_grossa {
+            border: 5px dashed rgb(0, 255, 255);
+        }
+        
+        .styleRemove {
+            text-decoration: none;
+        }
+        
+        p:hover {
+            font-weight: bold;
+        }
+        
+        .nomesProprios:hover {
+            text-transform: capitalize;
+        }
+        
+        #enviar {
+            width: 50px;
+            background-color: blue;
+            border: 1px solid black;
+            border-radius: 10px;
+            padding: 8px;
+            color: white;
+        }
+        
+        #enviar:hover {
+            background-color: aqua;
+            color: black;
+        }
+        #enviar::after{
+            content: "Enviar";
+        }
+        
+        #enviar:hover::after{
+            content: "Geralmente  o ID é único ";
+        }
