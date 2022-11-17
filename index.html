@@ -1,12 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Index</title>
+    <style>
+        body {
+            margin: 1%;
+            background-color: gray;
+        }
+
+        h1 {
+            border-radius: 10px;
+            margin: 0%;
+            background-color: lightgray;
+        }
+
+        .areaLinks {
+            text-align: center;
+        }
+
+        .links {
+            font-weight: 100;
+            color: black;
+            text-decoration: none;
+        }
+
+        .links:hover {
+            font-weight: bolder;
+        }
+
+        .topicBooks {
+            text-align: center;
+            border-radius: 10px;
+            margin: 0%;
+            background-color: lightgray;
+        }
+
+        .livros {
+            list-style: circle;
+        }
+
+        .autor {
+            list-style: lower-alpha;
+            font-style: italic;
+
+        }
+
+        .topico {
+            text-decoration: underline;
+            list-style: disc;
+            font-weight: bold;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <h1 style="text-align: center; border: 2px solid black;">Index</h1>
+
+    <h2 class="areaLinks">
+        <span style="margin-left: 10px;"><a class="links" href="curriculo.html">Curriculo</a></span>
+        <span>|</span>
+        <span style="margin-right: 10px;"><a class="links" href="assEmail.html">Ass. de Email</a></span>
+    </h2>
+
+    <h2 style="border: 2px solid black;" class="topicBooks">Livros</h2>
+
+    <ul>
+        <li class="topico">Sobre Politica</li>
+    </ul>
+    <ul>
+        <ul>
+            <li class="livros">Os Ditadores.</li>
+            <ul>
+                <li class="autor">Richard Overy.</li>
+            </ul>
+            <li class="livros">Governo Onipotente.</li>
+            <ul>
+                <li class="autor">Ludwig Von Mises.</li>
+            </ul>
+            <li class="livros">O Pacto do Diabo.</li>
+            <ul>
+                <li class="autor">Roger Moorhouse.</li>
+            </ul>
+        </ul>
+    </ul>
+
+    <ul>
+        <li class="topico">Sobre Economia</li>
+    </ul>
+
+    <ul>
+        <ul>
+            <li class="livros">O Livre mercado e Seus Inimigos.</li>
+            <ul>
+                <li class="autor">Ludwig Von Mises.</li>
+            </ul>
+            <li class="livros">De Volta ao Caminho da servidão.</li>
+            <ul>
+                <li class="autor">Thomas Woods Jr.</li>
+            </ul>
+        </ul>
+    </ul>
+
 </body>
+
 </html>
